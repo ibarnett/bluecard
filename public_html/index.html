@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bluecard</title>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+
+<form>
+    <div class="form-group">
+        <label for="scoutName">Name</label>
+        <input type="text" class="form-control" id="scoutName" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+        <label for="scoutDob">Birthday</label>
+        <input type="date" class="form-control" id="scoutDob" placeholder="Enter birthday">
+    </div>
+    <!-- TODO: These options should be dynamically generated-->
+    <div class="form-group">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="scoutRank" data-toggle="dropdown" aria-expanded="true">
+                Select Rank
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-toggle" role="menu" aria-labelledby="scoutRank">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tenderfoot</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Second Class</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">First Class</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Star</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Life</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eagle</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="scoutUnit">Unit</label>
+        <input type="number" class="form-control" id="scoutUnit" placeholder="Enter Scout Unit Number"/>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+</body>
+
+</html>
