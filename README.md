@@ -1,4 +1,4 @@
 # bluecard
-Modern Scout Progress Tracking Tool
-Purpose to learn PHP and perhaps make improvements to current scout tracking sites.  
+Modern Scout Progress Tracking Tool.
+The purpose of this is to learn PHP and make improvements to current scout tracking sites.  
 
