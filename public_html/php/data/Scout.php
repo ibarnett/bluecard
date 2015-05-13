@@ -8,6 +8,7 @@
 
 include "Person.php";
 
+
 class Scout extends Person{
 
     private $name;

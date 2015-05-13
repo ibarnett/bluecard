@@ -23,7 +23,8 @@ abstract class RestApi {
         header("Access-Control-Allow-Methods: *");
         header("Content-Type: application/json");
 
-
+        $this->args = explode('/', rtrim($request, '/'));
+        $this->endpoint =;
     }
 
 }

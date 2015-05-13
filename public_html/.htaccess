@@ -1,6 +1,6 @@
-<IfModule mod_rewrite.c>
+<IfModule rewrite_module>
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule api/(.*)$ api/RestApi.php?request=$1 [QSA,NC,L]
+    RewriteRule api/(.*)$ api/api.php?request=$1 [QSA,NC,L]
 </IfModule>
